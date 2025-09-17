@@ -1,0 +1,40 @@
+<div class="text left w600">
+	<h1>Basic Commands (continued)</h1>
+
+	<h2>Making changes</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git add filename.txt        # Add specific file<br>
+		git add .                   # Add all changes<br>
+		git commit -m "Fix bug in sensor reading"
+	</div>
+	<p>Commit messages should be descriptive and start with a verb</p>
+
+	<h2>Syncing with remote</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git pull                    # Get latest changes<br>
+		git push                    # Upload your changes
+	</div>
+
+	<h2>Viewing history</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git log --oneline           # See commit history<br>
+		git diff                    # See unstaged changes
+	</div>
+</div>
+
+<div class="text right w400">
+	<h2>⚠️ Important Tips</h2>
+	<ul>
+		<li><strong>Always pull before pushing</strong> - get latest changes first</li>
+		<li><strong>Commit often</strong> - small, focused commits</li>
+		<li><strong>Write good commit messages</strong> - future self will thank you</li>
+		<li><strong>Don't commit secrets</strong> - API keys, passwords, etc.</li>
+	</ul>
+
+	<div style="margin-top: 20px; padding: 12px; background-color: #fff3cd; border: 1px solid #DBB548; border-radius: 5px; font-size: 14px;">
+		<strong>Good commit message:</strong><br>
+		"Add temperature validation to sensor module"<br><br>
+		<strong>Bad commit message:</strong><br>
+		"fixed stuff"
+	</div>
+</div>

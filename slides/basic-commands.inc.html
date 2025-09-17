@@ -1,0 +1,41 @@
+<div class="text left w600">
+	<h1>Basic Commands</h1>
+
+	<h2>First-time setup</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git config --global user.name "Your Name"<br>
+		git config --global user.email "your.email@uwaterloo.ca"
+	</div>
+
+	<h2>Getting a repository</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git clone https://github.com/waterloo-rocketry/repo-name.git
+	</div>
+	<p>Downloads the entire project and its history</p>
+
+	<h2>Checking status</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git status
+	</div>
+	<p>Shows which files have been modified, added, or deleted</p>
+</div>
+
+<div class="text right w400">
+	<h2>The Git workflow</h2>
+	<div style="text-align: center; margin-top: 20px;">
+		<div style="padding: 8px; background-color: #e8f4fd; margin: 8px; border-radius: 5px; font-size: 14px;">
+			<strong>Working Directory</strong><br>
+			Your actual files
+		</div>
+		↓ <code>git add</code>
+		<div style="padding: 8px; background-color: #fff3cd; margin: 8px; border-radius: 5px; font-size: 14px;">
+			<strong>Staging Area</strong><br>
+			Files ready to commit
+		</div>
+		↓ <code>git commit</code>
+		<div style="padding: 8px; background-color: #d4f6d4; margin: 8px; border-radius: 5px; font-size: 14px;">
+			<strong>Repository</strong><br>
+			Permanent history
+		</div>
+	</div>
+</div>
