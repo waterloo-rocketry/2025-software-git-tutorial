@@ -1,0 +1,53 @@
+<div class="text left w600">
+	<h1>Branch Commands</h1>
+
+	<h2>Creating and switching branches</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git branch feature-sensor-fix     # Create new branch<br>
+		git checkout feature-sensor-fix   # Switch to branch<br>
+		<br>
+		# Or do both in one command:<br>
+		git checkout -b feature-sensor-fix
+	</div>
+
+	<h2>Working with branches</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git branch                    # List all branches<br>
+		git branch -a                 # Include remote branches<br>
+		git checkout main             # Switch back to main<br>
+		git branch -d feature-name    # Delete merged branch
+	</div>
+
+	<h2>Merging branches</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-family: monospace; font-size: 14px; line-height: 1.4;">
+		git checkout main             # Switch to main<br>
+		git pull                      # Get latest changes<br>
+		git merge feature-sensor-fix  # Merge feature
+	</div>
+</div>
+
+<div class="text right w400">
+	<h2>Branch Naming Convention</h2>
+	<p>Use descriptive names that explain what you're working on:</p>
+	
+	<div style="background-color: #d4f6d4; border: 1px solid #28a745; padding: 12px; border-radius: 5px; margin: 10px 0; font-size: 14px;">
+		<strong>✅ Good examples:</strong><br>
+		• feature-temperature-sensor<br>
+		• bugfix-memory-leak<br>
+		• hotfix-deployment-error<br>
+		• docs-installation-guide
+	</div>
+
+	<div style="background-color: #f8d7da; border: 1px solid #dc3545; padding: 12px; border-radius: 5px; margin: 10px 0; font-size: 14px;">
+		<strong>❌ Bad examples:</strong><br>
+		• test<br>
+		• my-branch<br>
+		• asdf<br>
+		• branch1
+	</div>
+
+	<div style="margin-top: 20px; padding: 12px; background-color: #fff3cd; border: 1px solid #DBB548; border-radius: 5px; font-size: 14px;">
+		<strong>💡 Pro tip:</strong><br>
+		At Waterloo Rocketry, we usually create branches for each GitHub issue you're working on.
+	</div>
+</div>

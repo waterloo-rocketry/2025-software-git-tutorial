@@ -1,0 +1,62 @@
+<div class="text left w600">
+	<h1>GitHub Issues</h1>
+
+	<p>Issues are how we track bugs, feature requests, and tasks in our projects.</p>
+
+	<h2>Creating a good issue</h2>
+	<ul>
+		<li><strong>Clear title</strong> - summarize the problem in one line</li>
+		<li><strong>Detailed description</strong> - explain what's happening</li>
+		<li><strong>Steps to reproduce</strong> - how can someone else see the problem?</li>
+		<li><strong>Expected vs actual behavior</strong> - what should vs does happen</li>
+		<li><strong>Environment details</strong> - OS, software versions, hardware</li>
+	</ul>
+
+	<h2>How to reproduce section</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-size: 14px;">
+		<strong>Steps to reproduce:</strong><br>
+		1. Clone the repository<br>
+		2. Run `python sensor_test.py`<br>
+		3. Connect the temperature sensor to pin A0<br>
+		4. Observe the output in the terminal<br>
+		<br>
+		<strong>Expected:</strong> Temperature readings in Celsius<br>
+		<strong>Actual:</strong> Getting negative values and crashes
+	</div>
+</div>
+
+<div class="text right w400">
+	<h2>Issue Template Example</h2>
+	<div style="background-color: #f8f9fa; border: 1px solid #DBB548; padding: 12px; border-radius: 5px; font-size: 12px; font-family: monospace;">
+		<strong>Bug Report</strong><br><br>
+		
+		<strong>Description:</strong><br>
+		Temperature sensor returns invalid readings<br><br>
+		
+		<strong>Steps to reproduce:</strong><br>
+		1. ...<br>
+		2. ...<br><br>
+		
+		<strong>Expected behavior:</strong><br>
+		...<br><br>
+		
+		<strong>Actual behavior:</strong><br>
+		...<br><br>
+		
+		<strong>Environment:</strong><br>
+		- OS: Ubuntu 22.04<br>
+		- Python: 3.9.2<br>
+		- Hardware: Arduino Uno<br><br>
+		
+		<strong>Additional context:</strong><br>
+		Screenshots, logs, etc.
+	</div>
+
+	<div style="margin-top: 15px; padding: 12px; background-color: #e8f4fd; border: 1px solid #17a2b8; border-radius: 5px; font-size: 14px;">
+		<strong>💡 Likely courses of action:</strong><br>
+		• Check sensor wiring<br>
+		• Validate ADC readings<br>
+		• Review calibration code<br>
+		• Test with different sensor
+	</div>
+</div>
