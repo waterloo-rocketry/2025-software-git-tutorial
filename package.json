@@ -1,0 +1,21 @@
+{
+  "name": "2025-software-git-tutorial",
+  "version": "1.0.0",
+  "description": "A simple Node.js hello world application for git tutorial",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello-world",
+    "nodejs",
+    "tutorial"
+  ],
+  "author": "Waterloo Rocketry",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
