@@ -12,6 +12,7 @@
 - Slides may be printed
 
 **Slide features**
+:), this is a smile face.
 
 - HTML slides with text, images, videos
 - SVG slides for diagrams, vector graphics and simple animations
