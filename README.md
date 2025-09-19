@@ -289,3 +289,5 @@ input.oninput = function() {
 
 - [Adding equations with MathJax](more/mathjax/)
 - [Creating a progressive web app (PWA)](more/pwa/)
+
+halo everyobdy
